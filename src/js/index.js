@@ -57,29 +57,52 @@ function theButtonWasClicked() {
     document.getElementById("cardMain").style.backgroundImage =
       "url('https://i.gifer.com/g0e4.gif')";
 
-    // document.getElementById("cardMain").style.webkitAnimationName = "none";
-    // //timer to reset anumation
-    // setTimeout(function() {
-    //   document.getElementById("cardMain").style.webkitAnimationName = "";
-    // }, 10);
+    document.getElementById("cardMain").style.webkitAnimationName = "none";
+    //timer to reset anumations
+    setTimeout(function() {
+      document.getElementById("cardMain").style.webkitAnimationName = "";
+    }, 10);
 
     //card2
     document.getElementById("card2").style.WebkitAnimationPlayState = "running";
     document.getElementById("card2").style.backgroundImage =
       "url('https://i.gifer.com/g0e4.gif')";
+
+    document.getElementById("card2").style.webkitAnimationName = "none";
+    //timer to reset anumations
+    setTimeout(function() {
+      document.getElementById("card2").style.webkitAnimationName = "";
+    }, 10);
     //card3
     document.getElementById("card3").style.WebkitAnimationPlayState = "running";
     document.getElementById("card3").style.backgroundImage =
       "url('https://i.gifer.com/g0e4.gif')";
+
+    document.getElementById("card3").style.webkitAnimationName = "none";
+    //timer to reset anumations
+    setTimeout(function() {
+      document.getElementById("card3").style.webkitAnimationName = "";
+    }, 10);
     //card4
     document.getElementById("card4").style.WebkitAnimationPlayState = "running";
     document.getElementById("card4").style.backgroundImage =
       "url('https://i.gifer.com/g0e4.gif')";
+
+    document.getElementById("card4").style.webkitAnimationName = "none";
+    //timer to reset anumations
+    setTimeout(function() {
+      document.getElementById("card4").style.webkitAnimationName = "";
+    }, 10);
     //card5
     document.getElementById("card5").style.WebkitAnimationPlayState = "running";
     document.getElementById("card5").style.backgroundImage =
       "url('https://i.gifer.com/g0e4.gif')";
   };
+  document.getElementById("card5").style.webkitAnimationName = "none";
+  //timer to reset anumations
+  setTimeout(function() {
+    document.getElementById("card5").style.webkitAnimationName = "";
+  }, 10);
 
   const assingValues = () => {
     // assign new values to cards
