@@ -18,16 +18,11 @@ function theButtonWasClicked() {
   let randomRank = Math.floor(Math.random() * 9);
   let together = types[randomType];
 
-  console.log(randomType);
-
-  //   let theSymbol = document.querySelector(".symbol");
-  //   theSymbol.innerHTML = "<span>" + together + "</span>";
   if (randomType == 0 || randomType == 3) {
     document.getElementById("cardMain").style.color = "black";
   } else {
     document.getElementById("cardMain").style.color = "red";
   }
-
   const selectSort = arr => {
     let min = 0;
     while (min <= arr.length - 1) {
@@ -180,7 +175,7 @@ function theButtonWasClicked() {
     } else {
       document.getElementById("card5").style.color = "red";
     }
-    //card 6
+    // card 6
     // let theUpperNumber6 = document.querySelector(".card6top");
     // theUpperNumber6.innerHTML = "<span>" + cardz[5] + "</span>";
 
